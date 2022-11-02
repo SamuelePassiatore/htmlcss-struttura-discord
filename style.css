@@ -13,6 +13,7 @@
     --cold-green: #20B2AA;
     --pink: #FFB6C1;
     --acquamarine: #7FFFD4;
+    --black:#23272A;
     --black-border: 2px dashed black;
 
 
@@ -32,7 +33,7 @@ body{
 
 /* Utils */
 .container{
-    max-width: 900px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -107,13 +108,13 @@ li{
     display: flex;
 }
 
-.light-blue-part{
+.light-blue-column{
     flex-basis: 60%;
     background-color: var(--blue);
     border: var(--black-border);
 }
 
-.light-pink-part{
+.light-pink-column{
     flex-basis: 40%;
     background-color: var(--light-pink);
     border: var(--black-border);
@@ -134,11 +135,8 @@ li{
     align-items: center;
 }
 
-.main-background-square{
+.background-square{
     min-height: 600px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .flex-container-square{
@@ -147,6 +145,22 @@ li{
     display: flex;
     background-color: var(--green);
     border: var(--black-border);
+}
+
+.black-bg{
+    background-color: var(--black);
+}
+
+.salmon-column{
+    flex-basis: 30%;
+    background-color: var(--salmon);
+    border: var(--black-border);
+}
+
+.cold-green-column{
+    flex-basis: calc(70% / 4);
+    background-color: var(--cold-green);
+    border: 2px dashed white;
 }
 
 
