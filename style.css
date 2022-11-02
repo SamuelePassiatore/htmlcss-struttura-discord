@@ -127,4 +127,28 @@ li{
     background-color: var(--grey);
 }
 
+.main-background{
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-background-square{
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container-square{
+    min-width: 900px;
+    height: 550px;
+    display: flex;
+    background-color: var(--green);
+    border: var(--black-border);
+}
+
+
+
 
