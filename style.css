@@ -94,8 +94,7 @@ li{
 }
 
 /* Sections main */
-.bg-white{
-    background-color: var(--white);
+.main-bg{
     min-height: 300px;
     display: flex;
     justify-content: center;
@@ -118,6 +117,14 @@ li{
     flex-basis: 40%;
     background-color: var(--light-pink);
     border: var(--black-border);
+}
+
+.white-bg{
+    background-color: var(--white);
+}
+
+.grey-bg{
+    background-color: var(--grey);
 }
 
 
