@@ -36,7 +36,7 @@ body{
     margin: 0 auto;
 }
 
-/* Flexbox */
+/* Header */
 header{
     background-color: #ADD8E6;
     min-height: 100px;
@@ -76,9 +76,10 @@ li{
     margin-right:2px;
 }
 
+/* Section under-header */
 .flex-container-blue{
     background-color: var(--dark-blue);
-    min-height: 300px;
+    min-height: 250px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -89,4 +90,34 @@ li{
     width: 600px;
     height: 200px;
     display: flex;
+    border: var(--black-border);
 }
+
+/* Sections main */
+.bg-white{
+    background-color: var(--white);
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container-main{
+    min-width: 900px;
+    height: 250px;
+    display: flex;
+}
+
+.light-blue-part{
+    flex-basis: 60%;
+    background-color: var(--blue);
+    border: var(--black-border);
+}
+
+.light-pink-part{
+    flex-basis: 40%;
+    background-color: var(--light-pink);
+    border: var(--black-border);
+}
+
+
