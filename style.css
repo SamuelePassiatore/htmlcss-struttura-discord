@@ -45,13 +45,12 @@ header{
     justify-content: space-around;
 }
 
-.flex-container{
+.flex-container-header{
     display: flex;
     background-color: var(--yellow);
     min-width: 900px;
     height: 40px;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-evenly;
 }
 
 .details-header{
@@ -77,3 +76,17 @@ li{
     margin-right:2px;
 }
 
+.flex-container-blue{
+    background-color: var(--dark-blue);
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rectangle-violet{
+    background-color: var(--violet);
+    width: 600px;
+    height: 200px;
+    display: flex;
+}
