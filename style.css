@@ -15,8 +15,6 @@
     --acquamarine: #7FFFD4;
     --black:#23272A;
     --black-border: 2px dashed black;
-
-
 }
 
 /* Reset CSS */
@@ -163,6 +161,32 @@ li{
     border: 2px dashed white;
 }
 
+.border-bottom{
+    border-bottom: 2px solid white;
+}
+
+footer{
+    background-color: var(--black);
+    min-height: 100px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.flex-container-footer{
+    display: flex;
+    background-color: var(--acquamarine);
+    height: 50px;
+    width: 900px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-footer, .bottone-footer{
+    background-color: var(--pink);
+    border: var(--black-border);
+    height: 25px;
+}
 
 
 
