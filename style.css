@@ -1,5 +1,20 @@
 /* Custom properties */
 :root{
+    --yellow: #DAA520;
+    --light-blue: #ADD8E6;
+    --dark-blue: #00008B;
+    --violet: #EE82EE;
+    --white: #FFFFFF;
+    --blue: #1E90FF;
+    --light-pink: #FFC0CB;
+    --grey: #D3D3D3;
+    --green: #228B22;
+    --salmon: #F08080;
+    --cold-green: #20B2AA;
+    --pink: #FFB6C1;
+    --acquamarine: #7FFFD4;
+    --black-border: 2px dashed black;
+
 
 }
 
@@ -12,11 +27,53 @@
 
 /* Generics */
 body{
-
+    font-family: sans-serif;
 }
 
 /* Utils */
 .container{
-    max-width: 1000px;
+    max-width: 900px;
     margin: 0 auto;
 }
+
+/* Flexbox */
+header{
+    background-color: #ADD8E6;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.flex-container{
+    display: flex;
+    background-color: var(--yellow);
+    min-width: 900px;
+    height: 40px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.details-header{
+    padding: 10px;
+    border: var(--black-border);
+}
+
+.logo, .login{
+    flex-basis: 20%;
+}
+
+nav{
+    flex-basis: 60%;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+li{
+    margin-right:2px;
+}
+
