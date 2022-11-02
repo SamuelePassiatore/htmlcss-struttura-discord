@@ -94,7 +94,7 @@ li{
 }
 
 /* Sections main */
-.main-bg{
+.main-background{
     min-height: 300px;
     display: flex;
     justify-content: center;
