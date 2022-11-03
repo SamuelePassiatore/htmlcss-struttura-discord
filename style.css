@@ -35,6 +35,14 @@ body{
     margin: 0 auto;
 }
 
+.flex{
+    display: flex;
+}
+
+.border{
+    border:var(--black-border);
+}
+
 /* Header */
 header{
     background-color: #ADD8E6;
@@ -44,7 +52,7 @@ header{
     justify-content: space-around;
 }
 
-.flex-container-header{
+.navbar{
     display: flex;
     background-color: var(--yellow);
     min-width: 900px;
@@ -52,17 +60,18 @@ header{
     justify-content: space-evenly;
 }
 
-.details-header{
+.navbar > *{
+    flex-basis: 20%;
     padding: 10px;
     border: var(--black-border);
 }
 
-.logo, .login{
-    flex-basis: 20%;
+.navbar-menu{
+    flex-grow: 1;
 }
 
-nav{
-    flex-basis: 60%;
+.navbar-button{
+    text-align: right;
 }
 
 ul{
@@ -75,8 +84,8 @@ li{
     margin-right:2px;
 }
 
-/* Section under-header */
-.flex-container-blue{
+/* Jumbotron */
+.jumbotron-container{
     background-color: var(--dark-blue);
     min-height: 250px;
     display: flex;
@@ -84,7 +93,7 @@ li{
     align-items: center;
 }
 
-.rectangle-violet{
+.jumbotron-content{
     background-color: var(--violet);
     width: 600px;
     height: 200px;
@@ -187,6 +196,3 @@ footer{
     border: var(--black-border);
     height: 25px;
 }
-
-
-
